@@ -2,7 +2,7 @@
 Steps to reproduce training:
 
 1.  Make a collection of desired images for each class. Preferably over 100 images for each class (100 images of apples, 100 images of pears). Ensure the images vary in lighting and compusure. Place all the images into /images/training
-2.  Process all the images and resize them to a 800x600 resolution. This can be done with an included script. In the Chowtime-  2.0 directory, run "python transform_image_resultion.py -d images/ -s 800 600" . This will transform all the pictures in the /images directory to 800x600 resolution.
+2.  Process all the images and resize them to a 800x600 resolution. This can be done with an included script. In the Chowtime-  2.0 directory, run ```python transform_image_resolution.py -d images/ -s 800 600``` . This will transform all the pictures in the /images directory to 800x600 resolution.
 
 3. Select 20% of the images, ideally an even amount from each class, and transfer them from /images/training to /images/test. These images will be used to test the model. 
 

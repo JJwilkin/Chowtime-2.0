@@ -1,14 +1,10 @@
 item {
   id: 1
-  name: 'bear'
+  name: 'orange'
 }
 
 item {
   id: 2
-  name: 'penguin'
+  name: 'green apple'
 }
 
-item {
-  id: 3
-  name: 'trophy'
-}

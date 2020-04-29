@@ -27,20 +27,17 @@ def xml_to_csv(path):
 
 def main():
     for directory in ['test','train']:
-      for fruit in ['Green Apple', 'Orange']: # FIX THIS!!!!
-        image_path = os.path.join(os.getcwd(), 'images/', format(directory), format(fruit))
+        image_path = os.path.join(os.getcwd(), 'images/', format(directory))
         xml_df = xml_to_csv(image_path)
-        xml_df.to_csv(os.path.join('images/', format(directory), '{}_labels.csv'.format(fruit)), index=None)
+        xml_df.to_csv(os.path.join('images/{}_labels.csv'.format(directory)), index=None)
         # xml_df.to_csv(os.path.join('images/', '{}_labels.csv'.format(directory)), index=None)
         print('Successfully converted xml to csv.')
-    merge()
+    remove()
 
-def merge():
+def remove():
   for directory in ['test', 'train']:
     path = 'images/{}'.format(directory)
-    all_files = glob.glob(os.path.join(path, '*_labels.csv'))
-    df_merged = pd.concat(pd.read_csv(f) for f in all_files)
-    df_merged.to_csv('images/{}.csv'.format(directory))
+    all_files = glob.glob(os.path.join(path, '*.xml'))
     
     for file in all_files:
       os.remove(file)

@@ -25,15 +25,14 @@ flags.DEFINE_string('output_path', '', 'Path to output TFRecord')
 flags.DEFINE_string('image_dir', '', 'Path to images')
 FLAGS = flags.FLAGS
 
-
 # TO-DO replace this with label map
 def class_text_to_int(row_label):
-    if row_label == 'bear':
+    if row_label == 'orange':
         return 1
-    elif row_label == 'penguin':
+    elif row_label == 'green apple':
         return 2
-    elif row_label == 'trophy':
-        return 3
+    # elif row_label == 'trophy':
+    #     return 3
     else:
         None
 
@@ -87,7 +86,7 @@ def create_tf_example(group, path):
 
 def main(_):
     writer = tf.python_io.TFRecordWriter(FLAGS.output_path)
-    path = os.path.join(FLAGS.image_dir)
+    path = os.path.join(os.getcwd(), FLAGS.image_dir)
     examples = pd.read_csv(FLAGS.csv_input)
     grouped = split(examples, 'filename')
     for group in grouped:

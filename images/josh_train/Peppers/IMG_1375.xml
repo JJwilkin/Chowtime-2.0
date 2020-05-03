@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Peppers</folder>
+	<filename>IMG_1375.jpeg</filename>
+	<path>/Users/joshuawilkinson/Desktop/Chowtime-2/Chowtime-2/images/train/Peppers/IMG_1375.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>green_pepper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>396</xmin>
+			<ymin>122</ymin>
+			<xmax>513</xmax>
+			<ymax>243</ymax>
+		</bndbox>
+	</object>
+</annotation>

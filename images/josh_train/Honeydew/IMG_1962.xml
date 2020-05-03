@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Honeydew</folder>
+	<filename>IMG_1962.jpeg</filename>
+	<path>/Users/joshuawilkinson/Desktop/Chowtime-2/Chowtime-2/images/train/Honeydew/IMG_1962.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>honeydew</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>439</xmin>
+			<ymin>181</ymin>
+			<xmax>647</xmax>
+			<ymax>409</ymax>
+		</bndbox>
+	</object>
+</annotation>

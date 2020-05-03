@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Papaya</folder>
+	<filename>IMG_1174.jpeg</filename>
+	<path>/Users/joshuawilkinson/Desktop/Chowtime-2/Chowtime-2/images/train/Papaya/IMG_1174.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>papaya</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>253</xmin>
+			<ymin>194</ymin>
+			<xmax>668</xmax>
+			<ymax>407</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Lime</folder>
+	<filename>IMG_1505.jpeg</filename>
+	<path>/Users/joshuawilkinson/Desktop/Chowtime-2/Chowtime-2/images/train/Lime/IMG_1505.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>lime</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>395</xmin>
+			<ymin>169</ymin>
+			<xmax>566</xmax>
+			<ymax>342</ymax>
+		</bndbox>
+	</object>
+</annotation>

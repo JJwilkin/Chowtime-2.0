@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Pomegranate</folder>
+	<filename>IMG_1634.jpeg</filename>
+	<path>/Users/joshuawilkinson/Desktop/Chowtime-2/Chowtime-2/images/train/Pomegranate/IMG_1634.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pomegranate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>359</xmin>
+			<ymin>130</ymin>
+			<xmax>535</xmax>
+			<ymax>331</ymax>
+		</bndbox>
+	</object>
+</annotation>

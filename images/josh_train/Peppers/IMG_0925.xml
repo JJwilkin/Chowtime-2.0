@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Peppers</folder>
+	<filename>IMG_0925.jpeg</filename>
+	<path>/Users/joshuawilkinson/Desktop/Chowtime-2/Chowtime-2/images/train/Peppers/IMG_0925.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>red_pepper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>238</xmin>
+			<ymin>95</ymin>
+			<xmax>469</xmax>
+			<ymax>335</ymax>
+		</bndbox>
+	</object>
+</annotation>

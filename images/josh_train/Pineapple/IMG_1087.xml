@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Pineapple</folder>
+	<filename>IMG_1087.jpeg</filename>
+	<path>/Users/joshuawilkinson/Desktop/Chowtime-2/Chowtime-2/images/train/Pineapple/IMG_1087.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pineapple</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>293</xmin>
+			<ymin>206</ymin>
+			<xmax>470</xmax>
+			<ymax>292</ymax>
+		</bndbox>
+	</object>
+</annotation>

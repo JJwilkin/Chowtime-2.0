@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Purple_Onion</folder>
+	<filename>IMG_0829.jpeg</filename>
+	<path>/Users/joshuawilkinson/Desktop/Chowtime-2/Chowtime-2/images/train/Purple_Onion/IMG_0829.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>purple_onion</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>228</xmin>
+			<ymin>174</ymin>
+			<xmax>418</xmax>
+			<ymax>341</ymax>
+		</bndbox>
+	</object>
+</annotation>

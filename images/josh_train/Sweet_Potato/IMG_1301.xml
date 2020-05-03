@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Sweet_Potato</folder>
+	<filename>IMG_1301.jpeg</filename>
+	<path>/Users/joshuawilkinson/Desktop/Chowtime-2/Chowtime-2/images/train/Sweet_Potato/IMG_1301.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sweet_potato</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>171</xmin>
+			<ymin>121</ymin>
+			<xmax>687</xmax>
+			<ymax>333</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Garlic</folder>
+	<filename>IMG_0692.jpeg</filename>
+	<path>/Users/joshuawilkinson/Desktop/Chowtime-2/Chowtime-2/images/train/Garlic/IMG_0692.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>garlic</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>305</xmin>
+			<ymin>153</ymin>
+			<xmax>483</xmax>
+			<ymax>308</ymax>
+		</bndbox>
+	</object>
+</annotation>

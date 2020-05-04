@@ -64,11 +64,6 @@ item {
 }
 
 item {
-  id: 13
-  name: 'orange'
-}
-
-item {
   id: 14
   name: 'purple_onion'
 }
@@ -156,4 +151,9 @@ item {
 item {
   id: 31
   name: 'white_mushroom'
+}
+
+item {
+  id: 32
+  name: 'orange'
 }

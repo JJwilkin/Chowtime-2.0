@@ -145,15 +145,10 @@ item {
 
 item {
   id: 30
-  name: 'green_apple'
-}
-
-item {
-  id: 31
   name: 'white_mushroom'
 }
 
 item {
-  id: 32
+  id: 31
   name: 'orange'
 }

@@ -85,12 +85,10 @@ def class_text_to_int(row_label):
         return 28
     elif row_label == 'red_apple':
         return 29
-    elif row_label == 'green_apple':
-        return 30
     elif row_label == 'white_mushroom':
-        return 31
+        return 30
     elif row_label == 'orange':
-        return 32
+        return 31
    
     else:
        return None

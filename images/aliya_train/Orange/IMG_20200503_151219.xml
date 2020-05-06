@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Orange</folder>
+	<filename>IMG_20200503_151219.jpg</filename>
+	<path>/Users/aliyarajwani/Documents/Repos/Object Recognition Chowtime/images/aliya_train/Orange/IMG_20200503_151219.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>orange</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>56</xmin>
+			<ymin>85</ymin>
+			<xmax>320</xmax>
+			<ymax>346</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>orange</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>320</xmin>
+			<ymin>82</ymin>
+			<xmax>586</xmax>
+			<ymax>340</ymax>
+		</bndbox>
+	</object>
+</annotation>

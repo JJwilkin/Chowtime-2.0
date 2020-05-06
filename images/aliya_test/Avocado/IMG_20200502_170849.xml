@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Avocado</folder>
+	<filename>IMG_20200502_170849.jpg</filename>
+	<path>/Users/aliyarajwani/Documents/Repos/Object Recognition Chowtime/images/aliya_test/Avocado/IMG_20200502_170849.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>avocado</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>48</xmin>
+			<ymin>103</ymin>
+			<xmax>393</xmax>
+			<ymax>414</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>avocado</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>477</xmin>
+			<ymin>103</ymin>
+			<xmax>772</xmax>
+			<ymax>430</ymax>
+		</bndbox>
+	</object>
+</annotation>

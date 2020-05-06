@@ -1,0 +1,38 @@
+<annotation>
+	<folder>tomato</folder>
+	<filename>IMG_20200502_165933.jpg</filename>
+	<path>/Users/aliyarajwani/Documents/Repos/Object Recognition Chowtime/images/aliya_train/tomato/IMG_20200502_165933.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tomato</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>196</xmin>
+			<ymin>179</ymin>
+			<xmax>594</xmax>
+			<ymax>600</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>tomato</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>179</xmin>
+			<ymin>22</ymin>
+			<xmax>345</xmax>
+			<ymax>225</ymax>
+		</bndbox>
+	</object>
+</annotation>

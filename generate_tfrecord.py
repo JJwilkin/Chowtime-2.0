@@ -27,14 +27,71 @@ FLAGS = flags.FLAGS
 
 # TO-DO replace this with label map
 def class_text_to_int(row_label):
-    if row_label == 'orange':
+    if row_label == 'avocado':
         return 1
-    elif row_label == 'green apple':
+    elif row_label == 'asparagus':
         return 2
-    # elif row_label == 'trophy':
-    #     return 3
+    elif row_label == 'banana':
+        return 3
+    elif row_label == 'cabbage':
+        return 4
+    elif row_label == 'cantaloupe':
+        return 5
+    elif row_label == 'carrot':
+        return 6
+    elif row_label == 'cucumber':
+        return 7
+    elif row_label == 'garlic':
+        return 8
+    elif row_label == 'ginger':
+        return 9
+    elif row_label == 'kiwi':
+        return 10
+    elif row_label == 'lemon':
+        return 11
+    elif row_label == 'lime':
+        return 12
+    elif row_label == 'mango':
+        return 13
+    elif row_label == 'purple_onion':
+        return 14
+    elif row_label == 'yellow_onion':
+        return 15
+    elif row_label == 'green_pepper':
+        return 16
+    elif row_label == 'orange_pepper':
+        return 17
+    elif row_label == 'red_pepper':
+        return 18
+    elif row_label == 'yellow_pepper':
+        return 19
+    elif row_label == 'small_potato':
+        return 20
+    elif row_label == 'sweet_potato':
+        return 21
+    elif row_label == 'pineapple':
+        return 22
+    elif row_label == 'pomegranate':
+        return 23
+    elif row_label == 'papaya':
+        return 24
+    elif row_label == 'peach':
+        return 25
+    elif row_label == 'honeydew':
+        return 26
+    elif row_label == 'tomato':
+        return 27
+    elif row_label == 'zucchini':
+        return 28
+    elif row_label == 'red_apple':
+        return 29
+    elif row_label == 'white_mushroom':
+        return 30
+    elif row_label == 'orange':
+        return 31
+   
     else:
-        None
+       return None
 
 
 def split(df, group):
